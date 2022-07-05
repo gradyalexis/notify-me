@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #FF7B73;
+}
+
+.button-notify {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 240px;
+  height: 60px;
+  background: #ffffff;
+  border-radius: 30px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.notify-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Calibri;
+  font-weight: bold;
+  color: #FF7B73;
+  font-size: 25px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.email-text {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 40px;
+  font-family: Calibri;
+  font-weight: bold;
+  font-size: 0;
+  color: #d9d9d9;
+  transition: all 0.3s;
+}
+
+.email-input {
+  position: absolute;
+  left: 25px;
+  top: 0;
+  width: 72%;
+  height: 60px;
+  outline: none;
+  display: none;
+  border: none;
+  border-radius: 30px;
+  font-family: Calibri;
+  font-weight: bold;
+  font-size: 0px;
+  color: #FF7B73;
+  transition: all 0.3s;
+  background: transparent;
+}
+
+.send-button {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 30px;
+  width: 0;
+  height: 0;
+  color: #ffbaba;
+  border: none;
+  outline: none;
+  font-family: Calibri;
+  font-weight: bold;
+  font-size: 0px;
+  border-radius: 30px;
+  background: #FF7B73;
+  opacity: 0;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.thank-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Calibri;
+  font-weight: bold;
+  color: #FF7B73;
+  font-size: 0px;
+  opacity: 0;
+  transition: all 0.3s;
+}

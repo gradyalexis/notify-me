@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notify Me</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="notifyButton" class="button-notify">
+    <text id="notifyText" class="notify-text">Notify Me</text>
+    <text id="emailText" class="email-text">E-mail</text>
+    <input
+      id="emailInput"
+      class="email-input"
+      onfocus="showEmailText(true)"
+      onfocusout="showEmailText(false)"
+      oninput="enableSendButton(this.id)"
+      type="text"
+    >
+    <button id="sendButton" class="send-button" onclick="confirmSendEmail()" disabled="true">
+      Send
+    </button>
+    <text id="thankText" class="thank-text">Thank You!</text>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
